@@ -17,7 +17,7 @@ Sigue los pasos a continuación para instalar y ejecutar la aplicación:
    cd Modulo4-Proyecto-Final
    cd nestjs-product-gallery
 
-3. Seguir las instrucciones del readme del backend.
+3. Seguir las instrucciones del readme del BACKEND
 
 4. Mantener el servidor corriendo en http://localhost:3000/
 
@@ -25,4 +25,4 @@ Sigue los pasos a continuación para instalar y ejecutar la aplicación:
     ```bash
    cd proyecto-final-galeria-productos
 
-6. Seguir las instrucciones del readme del backend.
+6. Seguir las instrucciones del readme del FRONTEND
