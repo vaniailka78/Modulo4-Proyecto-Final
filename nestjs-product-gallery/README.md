@@ -12,42 +12,39 @@ Esta es una API para gestionar una galería de productos utilizando NestJS, Pris
 
 Sigue los pasos a continuación para instalar y ejecutar la aplicación:
 
-1. Clonar el repositorio:
-    ```bash
-    git clone git@github.com:IonVillarreal/product-gallery.git
-    cd product-gallery
-    ```
-
-2. Instalar las dependencias:
+1. Instalar las dependencias:
     ```bash
     npm install
     ```
 
-3. Configurar el archivo `.env`:
-    - Crea un archivo `.env` en el directorio raíz del proyecto y agrega la siguiente línea:
+2. Configurar el archivo `.env`:
+    - Crea un archivo `.env` en el directorio raíz del proyecto y agrega las siguientes líneas:
       ```plaintext
       JWT_SECRET=your_jwt_secret_key
+      PORT=3000
+      NEXT_JS_URL=http://localhost:5050
+      REVALIDATION_TOKEN=tu_token_secreto_aqui
       ```
 
-4. Configurar Prisma:
+3. Configurar Prisma:
     - Asegúrate de que el archivo `prisma/.env` contenga la URL de la base de datos apuntando a `file:./dev.db`.
 
-5. Inicializar la base de datos:
+4. Inicializar la base de datos:
     ```bash
     npx prisma migrate dev --name init
     ```
 
-6. Ejecutar el script de seed para agregar datos de prueba:
+5. Ejecutar el script de seed para agregar datos de prueba:
     ```bash
     npm run seed
     ```
 
-7. Iniciar la aplicación:
+6. Iniciar la aplicación:
     ```bash
     npm run start:dev
     ```
 
-8. Acceder a la documentación de la API:
+7. Acceder a la documentación de la API:
     - Abre tu navegador y navega a `http://localhost:3000/api` para ver la documentación de Swagger.
 ## Uso
 
